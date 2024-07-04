@@ -1,0 +1,5 @@
+import title_line from '../../images/title_line.svg'
+<div className="title pb-4 text-center">
+    <h4 className='font-roboto font-normal text-center text-lg uppercase flex items-center justify-center gap-5 text-white tracking-[5px]'><picture><img   src={title_line} alt={title_line} /></picture> Time to reconnect </h4>
+</div>
+<h1 className='font-anglecia font-normal text-[72px] text-white text-center pb-[28px]'>Newsletter Sign Up</h1>
