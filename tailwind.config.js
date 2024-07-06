@@ -12,6 +12,7 @@ export default {
       },
       colors:{
         'btn':'#BF885E',
+        'card':'#664831',
         'main':'#473D35',
         'secondary':'#7A7176',
         'third':'#D9945F',

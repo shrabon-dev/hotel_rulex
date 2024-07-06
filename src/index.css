@@ -11,12 +11,32 @@
 
 @layer utilities{
   .container_box{
-    @apply container mx-auto px-16
+    @apply container mx-auto px-10
   }
+  .rates_table{
+    @apply border 
+  }
+  .th{
+    @apply font-anglecia text-xl text-black font-semibold py-4 px-4 text-left bg-[#E3E1E0]
+  }
+  .td{
+    @apply font-anglecia text-lg text-black font-normal py-4  px-4 text-left
+  }
+  .tr{
+    @apply  border-b hover:bg-[#E3E1E050] duration-300 ease-in-out
+  }
+ 
 }
 body{
   overflow-x: hidden;
 }
+.rates_table{
+  width: 100%;
+  display:table;
+  border-collapse: collapse;
+
+}
+ 
  input:focus{
   outline: none;
   border: none;
@@ -84,11 +104,19 @@ body{
   padding-top: 100px !important;
 }
 
+
 .sidebar::-webkit-scrollbar{
   background: black;
   width: 6px;
 }
+.pdct_navs::-webkit-scrollbar{
+  background: black;
+  height: 4px;
+}
 .sidebar::-webkit-scrollbar-thumb{
+  background: #D9945F;
+}
+.pdct_navs::-webkit-scrollbar-thumb {
   background: #D9945F;
 }
  
