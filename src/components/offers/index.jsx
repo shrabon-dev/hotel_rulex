@@ -63,7 +63,7 @@ export default function Offers() {
                                 <span className='font-anglecia font-normal block text-[32px] text-dark'>$29/ <span className='text-[16px]'>Stay</span></span>
                             </div>
                             <div className="btn">
-                            <a className='font-roboto text-lg font-normal text-white bg-btn py-3 tracking-[1px] uppercase px-4 w-36 ml-2 text-center inline-block' href="#">View Offer</a>
+                            <a className='font-roboto hover:bg-third  duration-300 ease-in-out text-lg  font-normal text-white bg-btn py-3 tracking-[1px] uppercase px-4 w-36 ml-2 text-center inline-block' href="#">View Offer</a>
                             </div>
                         </div>
 
@@ -88,7 +88,7 @@ export default function Offers() {
                                 <span className='font-anglecia font-normal block text-[32px] text-dark'>$29/ <span className='text-[16px]'>Stay</span></span>
                             </div>
                             <div className="btn">
-                            <a className='font-roboto text-lg font-normal text-white bg-btn py-3 tracking-[1px] uppercase px-4 w-36 ml-2 text-center inline-block' href="#">View Offer</a>
+                            <a className='font-roboto hover:bg-third  duration-300 ease-in-out text-lg  font-normal text-white bg-btn py-3 tracking-[1px] uppercase px-4 w-36 ml-2 text-center inline-block' href="#">View Offer</a>
                             </div>
                         </div>
 
@@ -113,7 +113,7 @@ export default function Offers() {
                                 <span className='font-anglecia font-normal block text-[32px] text-dark'>$29/ <span className='text-[16px]'>Stay</span></span>
                             </div>
                             <div className="btn">
-                            <a className='font-roboto text-lg font-normal text-white bg-btn py-3 tracking-[1px] uppercase px-4 w-36 ml-2 text-center inline-block' href="#">View Offer</a>
+                            <a className='font-roboto hover:bg-third  duration-300 ease-in-out text-lg  font-normal text-white bg-btn py-3 tracking-[1px] uppercase px-4 w-36 ml-2 text-center inline-block' href="#">View Offer</a>
                             </div>
                         </div>
 

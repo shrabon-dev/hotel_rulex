@@ -4,20 +4,21 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 export default function Sidebar(props) {
   return (
     <>
      <aside >
-        <div className={`sidebar w-72 h-screen  ${props.mode ? 'duration-300 ease-in-out oipacity-100 left-0':'duration-300 ease-in-out opacity-0 -left-96'} bg-dark overflow-auto fixed z-[999999] top-0 py-16 px-10 `}>
+        <div className={`sidebar w-72 h-screen  ${props.mode ? 'duration-300 ease-in-out oipacity-100 left-0':'duration-300 ease-in-out opacity-0 -left-96'} bg-dark overflow-auto fixed z-[9999999] top-0 py-16 px-10 `}>
             <div className="search text-center relative">
                 <label htmlFor="" className='text-3xl text-white absolute top-0 right-0'><IoIosSearch/></label>
                 <input type="text"  className='w-52 bg-transparent text-white border-b text-lg font-roboto font-normal '/>
             </div>
             <div className="menus">
                 <ul className='flex flex-col  py-10 text-center space-y-4'>
-                    <li><a className='font-roboto uppercase text-white text-sm font-normal ' href="#">Home</a></li>
-                    <li><a className='font-roboto uppercase text-white text-sm font-normal ' href="#">Room</a></li>
+                    <li><Link className='font-roboto uppercase text-white text-sm font-normal ' to="/">Home</Link></li>
+                    <li><Link className='font-roboto uppercase text-white text-sm font-normal ' to={'/single-room'}>Room</Link></li>
                     <li><a className='font-roboto uppercase text-white text-sm font-normal ' href="#">Portfolio</a></li>
                     <li><a className='font-roboto uppercase text-white text-sm font-normal ' href="#">Blog</a></li>
                     <li><a className='font-roboto uppercase text-white text-sm font-normal ' href="#">Shop</a></li>

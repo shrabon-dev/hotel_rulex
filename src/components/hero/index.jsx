@@ -94,7 +94,7 @@ export default function Hero() {
                 </div>
               </div>
               <div className="w-full sm:w-1/2 pb-10 md:p-5 xxl:w-1/4">
-              <button className='font-roboto  text-lg font-normal text-white bg-btn py-6 tracking-[1px] uppercase px-4 w-36 ml-2 text-center w-full' href="#">Check Availability</button>
+              <button className='font-roboto hover:bg-third duration-300 ease-in-out text-lg font-normal text-white bg-btn py-6 tracking-[1px] uppercase px-4 w-36 ml-2 text-center w-full' href="#">Check Availability</button>
 
               </div>
        

@@ -48,7 +48,7 @@ export default function Single_Room_Hero() {
                 </div>
               </div>
               <div className="btn inline-block md:block">
-                <button  className='font-roboto text-xs md:text-lg font-normal text-white bg-btn py-3 tracking-[1px] uppercase px-2 md:px-4 md:w-52 ml-2 text-center inline-block'>Book This Room</button>
+                <button  className='font-roboto hover:bg-third duration-300 ease-in-out text-xs md:text-lg font-normal text-white bg-btn py-3 tracking-[1px] uppercase px-2 md:px-4 md:w-52 ml-2 text-center inline-block'>Book This Room</button>
               </div>
               </div>
             </div>

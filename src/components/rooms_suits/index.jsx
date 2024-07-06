@@ -140,8 +140,8 @@ export default function RoomAndSuits() {
                             tellus non erat lacinia fermentum. Donec in velit vel
                             ipsum auctor pulvinar. Vestibulum iaculis lacinia est.</p>
                             <div className="btn text-center">
-                                <a className='font-roboto text-base md:text-lg font-normal text-white bg-btn py-3 tracking-[1px] uppercase px-4 w-36 ml-2 text-center inline-block' href="#">Book Now</a>
-                                <a className='font-roboto text-base md:text-lg font-normal text-white bg-[#866C56] tracking-[1px] uppercase py-3 px-4 w-36 ml-4 text-center inline-block' href="#">Details</a>
+                                <a className='font-roboto hover:bg-third  duration-300 ease-in-out text-base   md:text-lg font-normal text-white bg-btn py-3 tracking-[1px] uppercase px-4 w-36 ml-2 text-center inline-block' href="#">Book Now</a>
+                                <a className='font-roboto hover:bg-third  duration-300 ease-in-out text-base   md:text-lg font-normal text-white bg-[#866C56] tracking-[1px] uppercase py-3 px-4 w-36 ml-4 text-center inline-block' href="#">Details</a>
                             </div>
                     </div>
                     <div className="info">
@@ -151,8 +151,8 @@ export default function RoomAndSuits() {
                             tellus non erat lacinia fermentum. Donec in velit vel
                             ipsum auctor pulvinar. Vestibulum iaculis lacinia est.</p>
                             <div className="btn text-center">
-                                <a className='font-roboto text-base md:text-lg font-normal text-white bg-btn py-3 tracking-[1px] uppercase px-4 w-36 ml-2 text-center inline-block' href="#">Book Now</a>
-                                <a className='font-roboto text-base md:text-lg font-normal text-white bg-[#866C56] tracking-[1px] uppercase py-3 px-4 w-36 ml-4 text-center inline-block' href="#">Details</a>
+                                <a className='font-roboto hover:bg-third  duration-300 ease-in-out text-base   md:text-lg font-normal text-white bg-btn py-3 tracking-[1px] uppercase px-4 w-36 ml-2 text-center inline-block' href="#">Book Now</a>
+                                <a className='font-roboto hover:bg-third  duration-300 ease-in-out text-base   md:text-lg font-normal text-white bg-[#866C56] tracking-[1px] uppercase py-3 px-4 w-36 ml-4 text-center inline-block' href="#">Details</a>
                             </div>
                     </div>
                     <div className="info">
@@ -162,8 +162,8 @@ export default function RoomAndSuits() {
                             tellus non erat lacinia fermentum. Donec in velit vel
                             ipsum auctor pulvinar. Vestibulum iaculis lacinia est.</p>
                             <div className="btn text-center">
-                                <a className='font-roboto text-base md:text-lg font-normal text-white bg-btn py-3 tracking-[1px] uppercase px-4 w-36 ml-2 text-center inline-block' href="#">Book Now</a>
-                                <a className='font-roboto text-base md:text-lg font-normal text-white bg-[#866C56] tracking-[1px] uppercase py-3 px-4 w-36 ml-4 text-center inline-block' href="#">Details</a>
+                                <a className='font-roboto hover:bg-third  duration-300 ease-in-out text-base   md:text-lg font-normal text-white bg-btn py-3 tracking-[1px] uppercase px-4 w-36 ml-2 text-center inline-block' href="#">Book Now</a>
+                                <a className='font-roboto hover:bg-third  duration-300 ease-in-out text-base   md:text-lg font-normal text-white bg-[#866C56] tracking-[1px] uppercase py-3 px-4 w-36 ml-4 text-center inline-block' href="#">Details</a>
                             </div>
                     </div>
                 </Slider>

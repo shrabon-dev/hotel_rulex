@@ -7,8 +7,10 @@ import { GiLoincloth } from "react-icons/gi";
 import { TbAirConditioning } from "react-icons/tb";
 import { GiSlippers } from "react-icons/gi";
 import { BsSunrise } from "react-icons/bs";
+import { TfiAngleLeft,TfiAngleRight,TfiAngleDown } from "react-icons/tfi";
+
 import { BsSafe2 } from "react-icons/bs";
-import { FaShower } from "react-icons/fa";
+import { FaShower   } from "react-icons/fa";
 import { LiaShopware } from "react-icons/lia";
 import plan from '../../assets/images/plan.png'
 import galOne from '../../assets/images/gallery/1.jpg'
@@ -35,7 +37,7 @@ export default function Product_Info() {
       };
   return (
     <>
-     <div className='pdct_info_navs bg-main mb-10 sticky  top-[150px] z-[999999]'>
+     <div className='pdct_info_navs bg-main mb-10 sticky top-[120px] md:top-[150px] z-[999999]'>
        <div className="container_box">
        <ul className='pdct_navs  overflow-x-auto whitespace-nowrap'>
             <li className='inline-block '><a className='font-anglecia  text-center w-full font-medium text-lg lg:text-2xl text-white py-2 md:py-4 px-6 md:px-12 hover:bg-dark duration-300 ease-in-out inline-block bg-dark' href="#description">Description</a></li>
@@ -105,10 +107,11 @@ export default function Product_Info() {
 
 
                 </section>
-                <section id='rates' className='pb-10'> 
+                <section id='rates' className='pb-10 '> 
                     <h3 className='font-anglecia font-semibold text-2xl text-dark pb-6'>Rates</h3>
                     {/* Rates Table Start */}
-                    <table className='rates_table'>
+                    <div className="overflow-x-auto">
+                    <table className='rates_table '>
                         <tr className='tr'>
                             <th className='th'>Price pre room <span className='block text-lg'>in USD</span></th>
                             <th className='th'>Season 1 <span className='block text-base'>06.01-31.03, <span className='block'>01.11-23.12</span></span></th> 
@@ -134,8 +137,268 @@ export default function Product_Info() {
                             <td className='td'> $ 99</td>
                         </tr>
                     </table>
+                    </div>
                     <p className='font-roboto text-base font-normal text-gray-500  pt-4'>All prices are in USD per night and exclusive of GST. 15% Goods and Services tax is applvicable above the standard rates.</p>
                     {/* Rates Table End */}
+                </section>
+                <section id='availability' className='pb-10 hidden md:block'> 
+                    <h3 className='font-anglecia font-semibold text-2xl text-dark pb-6'>Availability</h3>
+                    {/* Availability Table Start */}
+                    <div className="md:px-0 px-6"> 
+                    <div className="top w-full">
+                        <thead className="bg-[#856a54] flex justify-between items-center py-5 px-5">
+                        <TfiAngleLeft className="text-white" />
+                        <th className="text-red-300">
+                            <h2 className="text-white text-lg font-anglecia uppercase">Today</h2>
+                        </th>
+                        <TfiAngleRight className="text-white" />
+                        </thead>
+                    </div>
+                    <div className="md:flex gap-x-6  w-full box-border">
+                        <div className="md:mb-0 mb-6 w-full md:w-[49%]">
+                        {/* Frist calendar  */}
+                        <div className="header bg-[#856a54] mt-3 py-4">
+                            <thead className="flex justify-between px-7 text-white">
+                            <div className="flex gap-x-4 items-center">
+                                <h4 className="font-anglecia font-normal text-lg text-white">September</h4>
+                            <TfiAngleDown/>
+                            </div>
+                            <div className="flex gap-x-4 items-center">
+                                <h4 className="font-anglecia font-normal text-lg text-[#fff]">2024</h4>
+                                <TfiAngleDown/>
+                            </div>
+                            </thead>
+                        </div>
+                        {/* Second calendar  */}
+                        <div className="header bg-[#a38c7a] py-4">
+                            <thead className="flex justify-between px-7 text-white">
+                            <th>SUN</th>
+                            <th>MOU</th>
+                            <th>YUE</th>
+                            <th>WED</th>
+                            <th>THU</th>
+                            <th>FRI</th>
+                            <th>SAT</th>
+                            </thead>
+                        </div>
+                        <div className="tablebody bg-white flex">
+                            <table className="border-r-2 ">
+                            <li className="px-8 list-none py-6">30</li>
+                            <li className="px-8 list-none py-6">6</li>
+                            <li className="px-8 list-none py-6">13</li>
+                            <li className="px-8 list-none py-6 bg-[#7d9e36] text-white">
+                                20
+                            </li>
+                            <li className="px-8 list-none py-6 bg-[#7d9e36] text-white">
+                                27
+                            </li>
+                            </table>
+                            <table className="border-r-2 ">
+                            <li className="md:px-[31px] px-4 list-none py-6">30</li>
+                            <li className="md:px-[31px] px-4 list-none py-6">6</li>
+                            <li className="md:px-[31px] px-4 list-none py-6">13</li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                20
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                27
+                            </li>
+                            </table>
+                            <table className="border-r-2 ">
+                            <li className="md:px-[31px] px-4 list-none py-6">30</li>
+                            <li className="md:px-[31px] px-4 list-none py-6">6</li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                13
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                20
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                27
+                            </li>
+                            </table>
+                            <table className="border-r-2 ">
+                            <li className="md:px-[31px] px-4 list-none py-6">30</li>
+                            <li className="md:px-[31px] px-4 list-none py-6">6</li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                13
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                20
+                            </li>
+                            <li className="md:px-[31px] list-none py-6 bg-[#7d9e36] text-white">
+                                27
+                            </li>
+                            </table>
+                            <table className="border-r-2 ">
+                            <li className="md:px-[31px] px-4 list-none py-6">30</li>
+                            <li className="md:px-[31px] px-4 list-none py-6">6</li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                13
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                20
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6">27</li>
+                            </table>
+                            <table className="border-r-2 ">
+                            <li className="md:px-[31px] px-4 list-none py-6">30</li>
+                            <li className="md:px-[31px] px-4 list-none py-6">6</li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                13
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                20
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6">27</li>
+                            </table>{" "}
+                            <table className=" ">
+                            <li className="md:px-[31px] px-4 list-none py-6">30</li>
+                            <li className="md:px-[31px] px-4 list-none py-6">6</li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                13
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                20
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6">27</li>
+                            </table>
+                        </div>
+                        </div>
+                        <div className="md:mb-0 mb-6 w-full md:w-[49%]">
+                        <div className="header bg-[#856a54] mt-3 py-4">
+                            <thead className="flex justify-center px-7 text-white">
+                            <h4 className="font-anglecia font-normal text-lg text-white">Octobar 2021</h4>
+                            </thead>
+                        </div>
+                        <div className="header bg-[#a38c7a] py-4">
+                            <thead className="flex justify-between px-7 text-white">
+                            <th>SUN</th>
+                            <th>MOU</th>
+                            <th>YUE</th>
+                            <th>WED</th>
+                            <th>THU</th>
+                            <th>FRI</th>
+                            <th>SAT</th>
+                            </thead>
+                        </div>
+                        <div className="tablebody bg-white flex ">
+                            <table className="border-r-2 ">
+                            <li className="md:px-[31px] px-4 list-none py-6 ">30</li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                6
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                13
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                20
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                27
+                            </li>
+                            </table>
+                            <table className="border-r-2 ">
+                            <li className="md:px-[31px] px-4 list-none py-6 ">30</li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                6
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                13
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                20
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                27
+                            </li>
+                            </table>
+                            <table className="border-r-2 ">
+                            <li className="md:px-[31px] px-4 list-none py-6">30</li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                6
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                13
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                20
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                27
+                            </li>
+                            </table>
+                            <table className="border-r-2 ">
+                            <li className="md:px-[31px] px-4 list-none py-6 ">30</li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                6
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                13
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                20
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                27
+                            </li>
+                            </table>
+                            <table className="border-r-2 ">
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                30
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                6
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                13
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                20
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                27
+                            </li>
+                            </table>
+                            <table className="border-r-2 ">
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                30
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                6
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                13
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                20
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                27
+                            </li>
+                            </table>{" "}
+                            <table className=" ">
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                30
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                6
+                            </li>
+                            <li className="md:px-[31px] px-8 list-none py-6 bg-[#7d9e36] text-white">
+                                13
+                            </li>
+                            <li className="md:px-[31px] px-4 list-none py-6 bg-[#7d9e36] text-white">
+                                20
+                            </li>
+                            <li className="md:px-[31px] px-8 list-none py-6 bg-[#7d9e36] text-white">
+                                27
+                            </li>
+                            </table>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    {/* Availability Table End */}
                 </section>
                 <section id='reservation_form' className='pb-10'> 
                     <h3 className='font-anglecia font-semibold text-2xl text-dark pb-6'>Reservation Form</h3>
@@ -171,7 +434,7 @@ export default function Product_Info() {
                             </div>
                             </div>
                             <div className="inp w-full mt-6 md:w-[48%]">
-                            <button className='font-roboto  text-base font-normal text-white bg-btn py-4 tracking-[1px] uppercase px-4  text-center w-full' href="#">Check Availability</button>
+                            <button className='font-roboto font-roboto hover:bg-third duration-300 ease-in-out text-base font-normal text-white bg-btn py-4 tracking-[1px] uppercase px-4  text-center w-full' href="#">Check Availability</button>
                             </div>
                           
                        </div>

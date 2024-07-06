@@ -70,7 +70,7 @@ export default function Navs() {
                             <MdOutlineCall className='text-lg'/> <span>+880 17896532</span>
                         </div>
                         <div className="booking_btn xl:ml-10">
-                             <a href="#" className='font-roboto font-normal text-sm bg-btn py-4 px-8 uppercase'>Book Now</a>
+                             <a href="#" className='font-roboto font-normal text-sm bg-btn py-4 px-8 uppercase hover:bg-third duration-300 ease-in-out'>Book Now</a>
                         </div>
                     </div>
                    {/* Phone and Booking Btn End  */}

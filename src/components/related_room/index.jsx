@@ -58,8 +58,8 @@ export default function Related_Room() {
                          <span className='text-4xl '> $96/</span> night
                     </div>
                     <div className="btn h-0 overflow-hidden group-hover:h-32 opacity-0 group-hover:opacity-100 duration-300 ease-in-out text-center">
-                        <button  className='font-roboto text-lg font-normal text-white bg-btn py-3 tracking-[1px] uppercase   w-48 ml-2 text-center inline-block'>Book Now</button>
-                        <button  className='font-roboto text-lg font-normal text-white bg-dark mt-4 py-3 tracking-[1px] uppercase  w-48 ml-2 text-center inline-block'>Details</button>
+                        <button  className='font-roboto hover:bg-third  duration-300 ease-in-out text-lg   font-normal text-white bg-btn py-3 tracking-[1px] uppercase   w-48 ml-2 text-center inline-block'>Book Now</button>
+                        <button  className='font-roboto hover:bg-third  duration-300 ease-in-out text-lg   font-normal text-white bg-dark mt-4 py-3 tracking-[1px] uppercase  w-48 ml-2 text-center inline-block'>Details</button>
                     </div>
                     </div>
                     </div>
@@ -75,8 +75,8 @@ export default function Related_Room() {
                          <span className='text-4xl '> $96/</span> night
                     </div>
                     <div className="btn h-0 overflow-hidden group-hover:h-32 opacity-0 group-hover:opacity-100 duration-300 ease-in-out text-center">
-                        <button  className='font-roboto text-lg font-normal text-white bg-btn py-3 tracking-[1px] uppercase   w-48 ml-2 text-center inline-block'>Book Now</button>
-                        <button  className='font-roboto text-lg font-normal text-white bg-dark mt-4 py-3 tracking-[1px] uppercase  w-48 ml-2 text-center inline-block'>Details</button>
+                        <button  className='font-roboto hover:bg-third  duration-300 ease-in-out text-lg   font-normal text-white bg-btn py-3 tracking-[1px] uppercase   w-48 ml-2 text-center inline-block'>Book Now</button>
+                        <button  className='font-roboto hover:bg-third  duration-300 ease-in-out text-lg   font-normal text-white bg-dark mt-4 py-3 tracking-[1px] uppercase  w-48 ml-2 text-center inline-block'>Details</button>
                     </div>
                     </div>
                     </div>
@@ -92,8 +92,8 @@ export default function Related_Room() {
                          <span className='text-4xl '> $96/</span> night
                     </div>
                     <div className="btn h-0 overflow-hidden group-hover:h-32 opacity-0 group-hover:opacity-100 duration-300 ease-in-out text-center">
-                        <button  className='font-roboto text-lg font-normal text-white bg-btn py-3 tracking-[1px] uppercase   w-48 ml-2 text-center inline-block'>Book Now</button>
-                        <button  className='font-roboto text-lg font-normal text-white bg-dark mt-4 py-3 tracking-[1px] uppercase  w-48 ml-2 text-center inline-block'>Details</button>
+                        <button  className='font-roboto hover:bg-third  duration-300 ease-in-out text-lg   font-normal text-white bg-btn py-3 tracking-[1px] uppercase   w-48 ml-2 text-center inline-block'>Book Now</button>
+                        <button  className='font-roboto hover:bg-third  duration-300 ease-in-out text-lg   font-normal text-white bg-dark mt-4 py-3 tracking-[1px] uppercase  w-48 ml-2 text-center inline-block'>Details</button>
                     </div>
                     </div>
                     </div>
@@ -109,8 +109,8 @@ export default function Related_Room() {
                          <span className='text-4xl '> $96/</span> night
                     </div>
                     <div className="btn h-0 overflow-hidden group-hover:h-32 opacity-0 group-hover:opacity-100 duration-300 ease-in-out text-center">
-                        <button  className='font-roboto text-lg font-normal text-white bg-btn py-3 tracking-[1px] uppercase   w-48 ml-2 text-center inline-block'>Book Now</button>
-                        <button  className='font-roboto text-lg font-normal text-white bg-dark mt-4 py-3 tracking-[1px] uppercase  w-48 ml-2 text-center inline-block'>Details</button>
+                        <button  className='font-roboto hover:bg-third  duration-300 ease-in-out text-lg   font-normal text-white bg-btn py-3 tracking-[1px] uppercase   w-48 ml-2 text-center inline-block'>Book Now</button>
+                        <button  className='font-roboto hover:bg-third  duration-300 ease-in-out text-lg   font-normal text-white bg-dark mt-4 py-3 tracking-[1px] uppercase  w-48 ml-2 text-center inline-block'>Details</button>
                     </div>
                     </div>
                     </div>
@@ -126,8 +126,8 @@ export default function Related_Room() {
                          <span className='text-4xl '> $96/</span> night
                     </div>
                     <div className="btn h-0 overflow-hidden group-hover:h-32 opacity-0 group-hover:opacity-100 duration-300 ease-in-out text-center">
-                        <button  className='font-roboto text-lg font-normal text-white bg-btn py-3 tracking-[1px] uppercase   w-48 ml-2 text-center inline-block'>Book Now</button>
-                        <button  className='font-roboto text-lg font-normal text-white bg-dark mt-4 py-3 tracking-[1px] uppercase  w-48 ml-2 text-center inline-block'>Details</button>
+                        <button  className='font-roboto hover:bg-third  duration-300 ease-in-out text-lg   font-normal text-white bg-btn py-3 tracking-[1px] uppercase   w-48 ml-2 text-center inline-block'>Book Now</button>
+                        <button  className='font-roboto hover:bg-third  duration-300 ease-in-out text-lg   font-normal text-white bg-dark mt-4 py-3 tracking-[1px] uppercase  w-48 ml-2 text-center inline-block'>Details</button>
                     </div>
                     </div>
                     </div>

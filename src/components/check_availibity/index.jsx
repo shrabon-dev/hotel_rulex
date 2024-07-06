@@ -23,7 +23,7 @@ export default function Check_Availibity() {
             <h6 className='font-anglecia text-2xl font-normal text-white flex gap-5 items-center'>
                 <SlCalender className='inline-block text-3xl'/> Check <br /> Availibity
             </h6>
-            <form action="#">
+     
                 <div className="inp pt-4">
                     <p className='font-roboto text-xs tracking-[1px] font-normal text-gray-300 uppercase'>arrival Date</p>
                     <label   htmlFor="arrival_date" className='font-roboto text-lg pt-2 font-normal text-white tracking-[1px] relative'>
@@ -34,20 +34,7 @@ export default function Check_Availibity() {
                         </div>
                         <span className='text-xs absolute right-1 top-2'><TfiAngleDown/></span>
                     </label>
-                    <input 
-                        type="date" 
-                        id='arrival_date' 
-                        
-                        style={{
-                            position: 'absolute',
-                            left: 0,
-                            top: 0,
-                            width: '100%',
-                            height: '100%',
-                            opacity: 0,
-                            cursor: 'pointer'
-                        }}
-                    />
+                   
                 </div>
                 <div className="inp pt-4">
                     <p className='font-roboto text-xs tracking-[1px] font-normal text-gray-300 uppercase'>Departure Date</p>
@@ -59,20 +46,7 @@ export default function Check_Availibity() {
                         </div>
                         <span className='text-xs absolute right-1 top-2'><TfiAngleDown/></span>
                     </label>
-                    <input 
-                        type="date" 
-                        id='arrival_date' 
-                        
-                        style={{
-                            position: 'absolute',
-                            left: 0,
-                            top: 0,
-                            width: '100%',
-                            height: '100%',
-                            opacity: 0,
-                            cursor: 'pointer'
-                        }}
-                    />
+                    
                 </div>
                 <div className="inp pt-4">
                     <p className='font-roboto text-xs tracking-[1px] font-normal text-gray-300 uppercase'>Room</p>
@@ -152,8 +126,7 @@ export default function Check_Availibity() {
                     </div>
 
                 </div>
-                <button className='font-roboto  text-sm mt-5 font-normal text-white bg-btn py-4 tracking-[1px] uppercase px-4  text-center w-full' href="#">Check Availability</button>
-            </form>
+                <button className='font-roboto hover:bg-third  duration-300 ease-in-out text-sm mt-5 font-normal text-white bg-btn/50 py-4 tracking-[1px] uppercase px-4  text-center w-full' href="#">Check Availability</button>
         </div>
     );
 }

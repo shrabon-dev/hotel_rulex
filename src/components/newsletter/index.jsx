@@ -25,7 +25,7 @@ export default function Newsletter() {
                             <label htmlFor="" className='block font-roboto text-xs text-left text-gray-300 tracking-[1px] font-normal mb-4'>SIGN UP FOR NEWS AND SPECIAL OFFERS </label>
                             <input className='h-10 bg-transparent border-b border-b-2 border-white w-full md:w-[500px] lg:w-[650px] font-anglecia text-lg placeholder:font-anglecia placeholder:text-lg placeholder:text-white  focus:!border-white  text-white font-normal' type="text" placeholder='Enter Email Address' />
                         </div>
-                        <button className='py-3 md:py-5   px-16 md:px-14 mt-5 md:mt-0 bg-btn text-white font-roboto font-normal uppercase text-lg'>Subscribe</button>
+                        <button className='py-3 md:py-5  hover:bg-third  duration-300 ease-in-out px-16 md:px-14 mt-5 md:mt-0 bg-btn text-white font-roboto font-normal uppercase text-lg'>Subscribe</button>
                     </div>
                  </form>
             </div>
