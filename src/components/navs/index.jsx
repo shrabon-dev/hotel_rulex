@@ -29,12 +29,7 @@ export default function Navs() {
         <div className="container_box">
             <div className="flex justify-between items-center ">
                 <div className="left_menus w-1/3">
-                    {/* <ul className='flex gap-5'>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                    </ul> */}
+             
                     <div className={`flex items-center  gap-5 ${sidebar && 'translate-x-72  md:translate-x-72 duration-300 ease-in-out'} duration-300`} >
                         <div onMouseEnter={()=>setSidebar(!sidebar)} onClick={()=>setSidebar(!sidebar)} className={`menu_icon ${sidebar && 'bg-main'} lg:bg-transparent w-10 h-10 flex flex-col justify-center items-center lg:items-start cursor-pointer group`}>
                             <span className={`w-6 h-[1px] bg-white mb-1 block group-hover:-rotate-[50deg] group-hover:translate-y-[2px] duration-300 ease-in-out ${sidebar && '-rotate-[50deg] translate-y-[2px] duration-300 ease-in-out'}`}></span>
@@ -52,12 +47,7 @@ export default function Navs() {
                     </picture>
                 </div>
                 <div className="right_menus w-1/3 text-right">
-                    {/* <ul className='flex gap-5'>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                    </ul> */}
+                   
                     {/* Langauge Start */}
                     <div className="block lg:hidden">
                         <Langauge/>
