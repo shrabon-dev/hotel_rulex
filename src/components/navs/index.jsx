@@ -36,7 +36,7 @@ export default function Navs() {
                         <li><a href="#">Home</a></li>
                     </ul> */}
                     <div className={`flex items-center  gap-5 ${sidebar && 'translate-x-72  md:translate-x-72 duration-300 ease-in-out'} duration-300`} >
-                        <div onClick={()=>setSidebar(!sidebar)} className={`menu_icon ${sidebar && 'bg-main'} lg:bg-transparent w-10 h-10 flex flex-col justify-center items-center lg:items-start cursor-pointer group`}>
+                        <div onMouseEnter={()=>setSidebar(!sidebar)} onClick={()=>setSidebar(!sidebar)} className={`menu_icon ${sidebar && 'bg-main'} lg:bg-transparent w-10 h-10 flex flex-col justify-center items-center lg:items-start cursor-pointer group`}>
                             <span className={`w-6 h-[1px] bg-white mb-1 block group-hover:-rotate-[50deg] group-hover:translate-y-[2px] duration-300 ease-in-out ${sidebar && '-rotate-[50deg] translate-y-[2px] duration-300 ease-in-out'}`}></span>
                             {!sidebar &&  <span className='w-4 group-hover:opacity-0 duration-300 ease-in-out h-[1px] bg-white mb-1 block'></span> }
                             <span className={`w-6 h-[1px] bg-white block group-hover:rotate-45 group-hover:translate-y-[-3px] duration-300 ease-in-out ${sidebar && 'rotate-45 translate-y-[-3px] duration-300 ease-in-out'}`}></span>
